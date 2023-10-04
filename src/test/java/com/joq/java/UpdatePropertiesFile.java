@@ -8,9 +8,10 @@ import java.io.InputStreamReader;
 import java.util.Properties;
 
 public class UpdatePropertiesFile {
+
 	public static void main(String[] args) {
 		String propertyName = "executionEnvironment";
-		String newValue = "cloud"; // The new value you want to set
+		String newValue = "local"; // The new value you want to set
 		String filePath = "./src/test/resources/automation_test_config.properties"; // Replace with your file path
 
 		try {
